@@ -10,6 +10,8 @@ The reason many projects use both is that they use Bower for front-end packages 
 
 All package managers have many downsides. You just have to pick which you can live with.
 
+![](http://7xpwoh.com1.z0.glb.clouddn.com/16-1-21/25700947.jpg)
+
 
 #### 链接
 [1].[http://stackoverflow.com/questions/18641899/what-is-the-difference-between-bower-and-npm](http://stackoverflow.com/questions/18641899/what-is-the-difference-between-bower-and-npm)
