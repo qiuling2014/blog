@@ -51,15 +51,6 @@ rem是（font size of the root element），官方解释：
 
 原理：通过动态修改根节点字体大小来实现屏幕适配
 
-
-	media-query{
-	
-	}
-	p{
-	  font-size: 0.75rem;
-	}
-
-
 #### rem数值计算
 
 如果利用rem来设置css的值，一般要通过一层计算才行，比如如果要设置一个长宽为100px的div，那么就需要计算出100px对应的rem值是 100 / 16 =6.25rem，这在我们写css中，其实算比较繁琐的一步操作了。
