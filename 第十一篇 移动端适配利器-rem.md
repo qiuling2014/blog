@@ -59,6 +59,7 @@ rem是（font size of the root element），官方解释：
 
 注：需要引入sass环境（less是没有自定义函数的功能😭）
 
+```css
 	@function px2rem($px){
 	  $rem : 16px;
 	  @return ($px/$rem) + rem;
@@ -68,7 +69,7 @@ rem是（font size of the root element），官方解释：
 	  height: px2rem(100px);
 	  width: px2rem(100px);
 	}
-	
+```
 	
 #### rem基准值计算
 

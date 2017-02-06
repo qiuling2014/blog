@@ -14,4 +14,4 @@ All package managers have many downsides. You just have to pick which you can li
 
 
 #### 链接
-[1].[http://stackoverflow.com/questions/18641899/what-is-the-difference-between-bower-and-npm](http://stackoverflow.com/questions/18641899/what-is-the-difference-between-bower-and-npm)
+[1].[stackoverflow](http://stackoverflow.com/questions/18641899/what-is-the-difference-between-bower-and-npm)
