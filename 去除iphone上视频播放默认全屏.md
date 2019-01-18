@@ -2,5 +2,8 @@
 
 论坛中搜索，都没给出答案，google —> stackoverflow，找到最终解决方法：
 
-	HTML里video必须加上webkit-playsinline属性
-    <video id="player" width="480" height="320" webkit-playsinline>
+``` html
+	<!-- HTML里video必须加上webkit-playsinline属性 -->
+    <video id="player" width="480" height="320" 
+    webkit-playsinline>
+```
