@@ -1,5 +1,4 @@
-## jQuery 3.0 Beta Released
-
+# jQuery 3.0 Beta Released
 
 原本打算翻译一下官方的说明文档，发现已经有同学做了，好吧，我们来说说变化吧。
 

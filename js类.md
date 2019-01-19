@@ -1,4 +1,4 @@
-```js
+```javascript
 function Fruit(name) {
   if (!(this instanceof Fruit)) {
     return new Fruit(name);

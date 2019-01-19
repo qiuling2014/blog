@@ -1,6 +1,5 @@
 ## js中的getter与setter
 
-
 > 在看Vue的API时，里面提到修改Model层，会实时更新View视图，底层原理利用的是ES5的getter和setter方法，通过 Object.defineProperty 把属性全部转为 getter/setter。故温故一遍getter和setter定义属性的方法。
 
 #### 通过对象字面量定义get和set方法
