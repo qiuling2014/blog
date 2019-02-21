@@ -28,7 +28,7 @@
 
 缺点：需要接口特殊处理返回数据
 
-## postMessage+ifrme
+## postMessage+iframe
 
 随着HTML5的发展，html5工作组提供了两个重要的接口：`postMessage(send)` 和 `onmessage`
 
