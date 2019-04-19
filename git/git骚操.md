@@ -6,9 +6,19 @@ git骚气操作。
 
 >小Q同学平时用惯了sourcetree，对git命令行操作不熟。在某个简单功能的开发中，小Q同学本地commit了多次，通过`git log`可以看到他的提交记录，分别是：commit-1、commit-2、commit-3，它们都隶属于同一个功能，经过大神同事的教育，应该把合并成同一条commit记录。通过google了解到，可以用`git reset`来回滚，小Q同学二话不说，一顿操作，拿到需要回滚提交commit的hash码，`git reset --hard xxxxxxx`，一条命令下去，小Q发现不对劲，自己敲了两天的码不见，`git log`也看不到提交记录了，急哭😭。
 
-我们知道`git reset --hard`会丢弃所有工作副本改动，对应到sourcetree，就是重置分支提交中选择`强行合并`模式的操作。下面让我们来拯救小Q同学。
+我们知道`git reset --hard`会丢弃所有工作副本改动，对应到sourcetree，就是重置分支提交中选择`强行合并`模式的操作。
 
-我们只需用到两条命令：
+```
+git reset <commit-id>  #默认就是-mixed参数。
+
+git reset –mixed HEAD^  #回退至上个版本，它将重置HEAD到另外一个commit,并且重置暂存区以便和HEAD相匹配，但是也到此为止。工作区不会被更改。
+
+git reset –soft HEAD~3  #回退至三个版本之前，只回退了commit的信息，暂存区和工作区与回退之前保持一致。如果还要提交，直接commit即可  
+
+git reset –hard <commit-id>  #彻底回退到指定commit-id的状态，暂存区和工作区也会变为指定commit-id版本的内容
+```
+
+下面让我们来拯救小Q同学，我们只需用到两条命令：
 
 `git reflog`：可以查看所有分支的所有操作记录（包括已经被删除的commit记录和reset的操作，`git log`是看不到的）
 
